@@ -1,2 +1,3 @@
 FROM mysql
-ENV MYSQL_ALLOW_EMPTY_PASSWORD yes
+ENV MYSQL_ROOT_PASSWORD bacon
+RUN mysql -uroot -pbacon < api/db/script.sql

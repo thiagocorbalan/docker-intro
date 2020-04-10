@@ -48,6 +48,12 @@ $ docker exec -it mysql-container /bin/bash
 $ docker inspect mysql-container
 ```
 
+## Docker Compose
 
+```bash
+$ docker-compose up -d
+```
+
+`-d` roda em background
 
 
