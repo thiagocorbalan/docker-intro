@@ -1,3 +1,3 @@
 FROM node:10-slim
-WORKDIR /hoome/node/app
+WORKDIR /home/node/app
 CMD npm start
